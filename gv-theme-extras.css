@@ -1,0 +1,62 @@
+.guild-profile, .theme-dark, .theme-dark .theme-light, .userInfo-iCloHO, [aria-label="User Profile Modal"], [class^=profileBannerPreview], [class^=userPopout] {
+	--header-primary: #1a1a1a;
+	--text-normal: #777;
+	--interactive-active: #666;
+}
+
+/* NAV BAR CHANGE */
+
+.container-YkUktl {
+	justify-content: space-between;
+}
+.sidebar-1tnWFu {
+    width: 320px;
+}
+
+/* CHAT CHANGES */
+
+.contents-2MsGLg {
+	padding: 4px 10px !important;
+	margin: 1px;
+	background-color: #f4f4f4;
+	border-radius: 10px;
+	letter-spacing: .2pt;
+
+	transition: background-color .1s ease;
+}
+
+.group-spacing-16 .groupStart-3Mlgv1 {
+	margin-top: 2rem;
+}
+
+.group-spacing-16 .divider-IqmEqJ.hasContent-1y12-u {
+	margin-top: 3rem;
+}
+
+.container-1yy5xN {
+	margin-bottom: 10rem;
+}
+.message-2CShn3:hover .contents-2MsGLg {
+	background-color: #fafafa;
+}
+
+
+/* Removing text chatroom icons */
+.iconContainer-21RCa3[aria-label="Texto (limitado)"], .iconContainer-21RCa3[aria-label="Texto"] {
+	opacity: 0;
+	background-color: red;
+}
+
+/* Call fix */
+.callContainer-HtHELf.theme-dark .defaultColor-1EVLSt {
+	--text-normal: #eee;
+}
+
+/* this is a test change */
+.container-1NXEtd {
+    background-color: red;
+}
+
+* {
+    color: red;
+}
