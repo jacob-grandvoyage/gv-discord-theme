@@ -26,6 +26,5 @@
 
     /*Server Info Bar*/
     --app-info-bar-height: 48px; /* Height for container that holds the server name, info, actions and search */
-	--channels-default: #2a2a2a;
 }
 
