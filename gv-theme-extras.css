@@ -1,4 +1,4 @@
-.guild-profile, .theme-dark, .theme-dark .theme-light, .userInfo-iCloHO, [aria-label="User Profile Modal"], [class^=profileBannerPreview], [class^=userPopout] {
+.guild-profile, .theme-light, .userInfo-iCloHO, [aria-label="User Profile Modal"], [class^=profileBannerPreview], [class^=userPopout] {
 	--header-primary: #1a1a1a;
 	--text-normal: #777;
 	--interactive-active: #666;
@@ -36,10 +36,14 @@
 .container-1yy5xN {
 	margin-bottom: 10rem;
 }
-.message-2CShn3:hover .contents-2MsGLg {
+
+.theme-light .message-2CShn3:hover .contents-2MsGLg {
 	background-color: #fafafa;
 }
 
+.theme-dark .message-2CShn3:hover .contents-2MsGLg {
+	background-color: #000;
+}
 
 /* Removing text chatroom icons */
 .iconContainer-21RCa3[aria-label="Texto (limitado)"], .iconContainer-21RCa3[aria-label="Texto"] {
