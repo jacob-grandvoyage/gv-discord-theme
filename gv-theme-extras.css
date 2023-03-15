@@ -1,3 +1,7 @@
+.theme-light {
+	--channels-default: #2a2a2a;
+}
+
 .guild-profile, .theme-light, .userInfo-iCloHO, [aria-label="User Profile Modal"], [class^=profileBannerPreview], [class^=userPopout] {
 	--header-primary: #1a1a1a;
 	--text-normal: #777;
@@ -23,6 +27,11 @@
 	letter-spacing: .2pt;
 
 	transition: background-color .1s ease;
+}
+
+
+.theme-dark .contents-2MsGLg {
+	background-color: #0004;
 }
 
 .group-spacing-16 .groupStart-3Mlgv1 {
