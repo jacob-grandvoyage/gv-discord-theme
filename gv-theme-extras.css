@@ -64,3 +64,8 @@
 .callContainer-HtHELf.theme-dark .defaultColor-1EVLSt {
 	--text-normal: #eee;
 }
+
+/* hide channel text icon */
+iconContainer-21RCa3[aria-label="Text"] {
+	visibility: hidden;
+}
