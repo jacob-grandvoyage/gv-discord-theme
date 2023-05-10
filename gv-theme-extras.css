@@ -66,6 +66,10 @@
 }
 
 /* hide channel text icon */
-iconContainer-21RCa3[aria-label="Text"] {
+iconContainer-21RCa3[aria-label="Text"], .iconContainer-21RCa3[aria-label="Text (Limited)"] {
 	visibility: hidden;
+}
+
+.iconContainer-21RCa3[aria-label="Text"], .iconContainer-21RCa3[aria-label="Text (Limited)"] {
+  visibility: hidden;
 }
